@@ -1,0 +1,31 @@
+.create{
+    width:270px;
+    height: 40px;
+    background: white;
+    border: 1px #dbdbdb solid;
+    margin-top: 5px;
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+   
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    
+    
+   
+}
+.create a{
+    font-size: 11px;
+    text-decoration: none;
+    color: #0095f6;
+    font-weight: 510;
+}
+.create label{
+    font-size: 10px;
+    font-weight: 400;
+}

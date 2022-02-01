@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+.quadrados{
+    display: block;
+    margin-left: 15px;
+    text-align: center;
+    line-height:40px;
+    
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.download
+{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-left: 12%;
+    padding-right: 12%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.quadrados label{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 11px;
+    
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.principal
+{
+    display: flex;
+    align-items: center;
+    
 }
+.footer{
+    margin-top: 100px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
 
-.App-link {
-  color: #61dafb;
 }
+.footer div{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.footer a{
+    font-size: 10px;
+    color: #8E8E8E;;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.footer select{
+    border: 0px;
+    background-color: transparent;
+    color: #8E8E8E;
+    font-size: 10px;
+}
+.footer label{
+    color: #8E8E8E;
+    font-size: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
